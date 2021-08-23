@@ -1,32 +1,41 @@
 <!DOCTYPE html>
-<html lang = "ru">
+<html>
 <head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <meta http-equiv = "X-UA-Compatible" content = "ie=edje">
-    <link rel = "stylesheet" href="css/style.css">
-    <link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
-    <title>Вкладка</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>Первая страничка</title>
 </head>
 <body>
-<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-      </a>
 
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
-      </ul>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">    
+            <div class="header__logo">MoGo</div>
 
-      <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2">Login</button>
-        <button type="button" class="btn btn-primary">Sign-up</button>
-      </div>
-    </header>
+            <nav class="nav">
+                <a class="nav__link" href="#">О нас</a>
+                <a class="nav__link" href="#">Сервис</a>
+                <a class="nav__link" href="#">Блог</a>
+                <a class="nav__link" href="#">Работа</a>
+                <a class="nav__link" href="#">Контакты</a>
+            </nav>
+        </div>
+    </div>
+
+</header>
+
+
+<div class="intro">    
+    <div class="container">
+        <div class="intro__inner">
+            <h2 class="intro__suptitle">Creative Approach</h2>
+            <h1 class="intro__title">Welcome to MoGo</h1>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
